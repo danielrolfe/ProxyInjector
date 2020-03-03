@@ -5,8 +5,10 @@ I built this to use in conjunction with Sitecore Install Assistant (SIA). Curren
 
 After downloading the Sitecore > 9.2 install, modify the setup.exe.config and add the following config. Copy the DLL built by the code in this repo to the same folder as the setup.exe and run as administrator.
 
-  <system.net>
-	<defaultProxy enabled="true" useDefaultCredentials="false">
-		<module type = "ProxyInjector.ProxyInjector, ProxyInjector" />
-	</defaultProxy>
-  </system.net>
+```xml
+<system.net>
+<defaultProxy enabled="true" useDefaultCredentials="false">
+<module type = "ProxyInjector.ProxyInjector, ProxyInjector" />
+</defaultProxy>
+</system.net>
+```
