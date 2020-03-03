@@ -3,7 +3,7 @@
 
 I built this to use in conjunction with Sitecore Install Assistant (SIA). Currently it does not support use behind a proxy so this DLL and the config changes below will work around this.
 
-After downloading the Sitecore > 9.2 install, modify the setup.exe.config and add the following config. Copy the DLL built by the code in this repo to the same folder as the setup.exe and run as administrator.
+After downloading the Sitecore 9.2 (or greater) install, modify the setup.exe.config and add the following config. Copy the DLL built by the code in this repo to the same folder as the setup.exe and run as administrator.
 
 ```xml
 <system.net>
